@@ -16,19 +16,19 @@
 };
 */
 import React from 'react';
-import Navbar from './components/Navbar';
-import HeroSection from './components/HeroSection';
-import AboutUs from './components/AboutUs';
-import Products from './components/Products';
-import Shop from './components/Shop';
-import Gallery from './components/Gallery';
-import Beauty from './components/Beauty';
-import Reviews from './components/Reviews';
-import MeetUs from './components/MeetUs';
-import Footer from './components/Footer';
-import './App.css';
+import Navbar from './Navbar/Navbar';
+import HeroSection from './HeroSection/HeroSection';
+import AboutUs from './AboutUs/AboutUs';
+import Products from './Products/Products';
+import Shop from './Shop/Shop';
+import Gallery from './Gallery/Gallery';
+import Beauty from './Beauty/Beauty';
+import Reviews from './Reviews/Reviews';
+import MeetUs from './MeetUs/MeetUs';
+import Footer from './Footer/Footer';
+/*import './App.css';*/
 
-const App = () => {
+export const App = () => {
   return (
     <div>
       <Navbar />
@@ -45,4 +45,3 @@ const App = () => {
   );
 };
 
-export default App;
