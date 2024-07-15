@@ -1,20 +1,3 @@
-/*export const App = () => {
-  return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      Votre miel
-    </div>
-  );
-};
-*/
 import React from 'react';
 import Navbar from './Navbar/Navbar';
 import HeroSection from './HeroSection/HeroSection';
@@ -26,7 +9,7 @@ import Beauty from './Beauty/Beauty';
 import Reviews from './Reviews/Reviews';
 import MeetUs from './MeetUs/MeetUs';
 import Footer from './Footer/Footer';
-/*import './App.css';*/
+import './App.module.css';
 
 export const App = () => {
   return (
