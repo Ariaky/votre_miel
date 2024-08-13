@@ -16,3 +16,15 @@ const resources = {
     }
 };
 
+i18next
+    .use(initReactI18next)
+    .init({
+        resources,
+        lng: 'fr', //default language
+        fallbackLng: 'fr', // the language to use if no translation is found
+        interpolation: {
+            escapeValue: false // react вже екранує значення
+        }
+    });
+
+export default i18next;
