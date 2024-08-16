@@ -1,0 +1,20 @@
+{
+    "navbar": {
+      "home": "Home",
+      "about": "About Us",
+      "products": "Products",
+      "shop": "Shop",
+      "gallery": "Gallery",
+      "beauty": "Beauty",
+      "reviews": "Reviews",
+      "meet_us": "Meet Us"
+    },
+    "hero": {
+      "title": "Golden Hive Honey",
+      "subtitle": "Discover our finest selection of honey and beeswax products."
+    },
+    "about_us": {
+      "title": "About Us",
+      "content": "Your text here about the company."
+    }
+  }
