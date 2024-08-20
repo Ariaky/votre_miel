@@ -1,5 +1,21 @@
+
 {
-    "fr": {
-        
-    }
+    "navbar": {
+        "home": "Accueil",
+        "about": "À propos de nous",
+        "products": "Produits",
+        "shop": "Boutique",
+        "gallery": "Galerie",
+        "beauty": "Beauté",
+        "reviews": "Avis",
+        "meet_us": "Rencontrez-nous"
+    },
+    "hero": {
+        "title": "Votre miel",
+        "subtitle": "Découvrez notre plus belle sélection de produits à base de miel et de cire d'abeille."
+    },
+    "about_us": {
+        "title": "À propos de nous",
+        "content": "Text about the company."
+    }  
 }
