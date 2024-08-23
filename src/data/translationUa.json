@@ -1,0 +1,20 @@
+{
+    "navbar": {
+      "home": "Головна",
+      "about": "Про нас",
+      "products": "Продукція",
+      "shop": "Магазин",
+      "gallery": "Галерея",
+      "beauty": "Краса",
+      "reviews": "Відгуки",
+      "meet_us": "Контакти"
+    },
+    "hero": {
+      "title": "Votre miel",
+      "subtitle": "Відкрийте для себе наш найкращий вибір продуктів з меду та бджолиного воску."
+    },
+    "about_us": {
+      "title": "Про нас",
+      "content": "Text about the company."
+    }
+  }
