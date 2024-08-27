@@ -8,7 +8,7 @@ const Footer = () => {
             <button type="submit">Subscribe</button>
           </form>
         </section>
-        <p>&copy; 2024 Votre miel. All rights reserved.© 2024 - Ariaky - Conception et réalisation idealcoms - Politique de confidentialité - Cookies - CGV</p>
+        <p>&copy; 2024 Votre miel. All rights reserved.© 2024 Conception _____ - Réalisation Ariaky - Politique de confidentialité - Cookies - CGV</p>
       </footer>
     );
   };
