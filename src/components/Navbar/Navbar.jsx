@@ -1,7 +1,7 @@
 const Navbar = () => {
     return (
       <nav>
-        <div className="logo">Golden Hive Honey</div>
+        <div className="logo">Votre miel</div>
         <ul>
           <li><a href="#about-us">About Us</a></li>
           <li><a href="#products">Products</a></li>
