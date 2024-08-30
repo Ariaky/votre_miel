@@ -9,12 +9,14 @@ import Beauty from './Beauty/Beauty';
 import Reviews from './Reviews/Reviews';
 import MeetUs from './MeetUs/MeetUs';
 import Footer from './Footer/Footer';
+import LanguageSwitcher from './LanguagesSwitcher/LanguageSwitcher';
 import './App.module.css';
 
 export const App = () => {
   return (
     <div>
       <Navbar />
+      <LanguageSwitcher />
       <HeroSection />
       <AboutUs />
       <Products />
