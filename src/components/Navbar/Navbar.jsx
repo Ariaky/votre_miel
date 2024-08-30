@@ -1,4 +1,7 @@
+import { useTranslation } from "react-i18next";
+
 const Navbar = () => {
+  const { t } = useTranslation();
     return (
       <nav>
         <div className="logo">Votre miel</div>
