@@ -1,8 +1,12 @@
+import { useTranslation } from "react-i18next";
+
 const HeroSection = () => {
+    const { t } = useTranslation();
+
     return (
       <section className="hero">
         <h1>Votre miel</h1>
-        <p>Discover our finest selection of honey and beeswax products.</p>
+        <p>{t('hero.subtitle')}</p>
       </section>
     );
   };
