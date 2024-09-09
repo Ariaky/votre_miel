@@ -4,7 +4,7 @@ const Navbar = () => {
   const { t } = useTranslation();
     return (
       <nav>
-        <div className="logo">{t('navbar.home')}</div>
+        <div className="logo">Votre miel</div>
         <ul>
           <li><a href="#about-us">{t('navbar.about')}</a></li>
           <li><a href="#products">{t('navbar.products')}</a></li>
