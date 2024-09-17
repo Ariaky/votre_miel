@@ -1,8 +1,12 @@
+import { useTranslation } from "react-i18next";
+
 const AboutUs = () => {
+    const { t } = useTranslation();
+
     return (
       <section id="about-us">
-        <h2>About Us</h2>
-        <p>Your text here about the company.</p>
+        <h2>{t('about_us.title')}</h2>
+        <p>{t('about_us.content')}</p>
         <img src="path-to-image" alt="About Us" />
       </section>
     );
