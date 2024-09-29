@@ -9,7 +9,7 @@ const Products = () => {
           <div className="product-icon">{t('product.product_1')}</div>
           <div className="product-icon">{t('product.product_2')}</div>
           <div className="product-icon">{t('product.product_3')}</div>
-          <div className="product-icon">Product 4</div>
+          <div className="product-icon">{t('product.product_4')}</div>
         </div>
       </section>
     );
