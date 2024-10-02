@@ -17,5 +17,16 @@
     "about_us": {
         "title": "À propos de nous",
         "content": "Texte sur l'entreprise."
-    }  
+    },
+    "product": {
+        "title": "Produits",
+        "product_1": "Produit 1.",
+        "product_2": "Produit 2.",
+        "product_3": "Produit 31.",
+        "product_4": "Produit 4.",
+        "product_5": "Produit 5.",
+        "product_6": "Produit 6.",
+        "product_7": "Produit 7.",
+        "product_8": "Produit 8."
+      } 
 }
