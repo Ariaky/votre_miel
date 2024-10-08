@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 
+
 const AboutUs = () => {
     const { t } = useTranslation();
 

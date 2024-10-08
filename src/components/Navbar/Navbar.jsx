@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "../LanguagesSwitcher/LanguageSwitcher";
 
 const Navbar = () => {
   const { t } = useTranslation();
@@ -14,6 +15,7 @@ const Navbar = () => {
           <li><a href="#reviews">{t('navbar.reviews')}</a></li>
           <li><a href="#meet-us">{t('navbar.meet_us')}</a></li>
         </ul>
+        <LanguageSwitcher />
       </nav>
     );
   };
