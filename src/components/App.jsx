@@ -16,7 +16,6 @@ export const App = () => {
   return (
     <div>
       <Navbar />
-      <LanguageSwitcher />
       <HeroSection />
       <AboutUs />
       <Products />
