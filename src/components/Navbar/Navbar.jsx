@@ -5,7 +5,7 @@ import css from "./Navbar.module.css";
 const Navbar = () => {
   const { t } = useTranslation();
     return (
-      <nav>
+      <nav className={css.nav}>
         <div className={css.logo}>Votre miel</div>
         <ul>
           <li><a href="#about-us">{t('navbar.about')}</a></li>
