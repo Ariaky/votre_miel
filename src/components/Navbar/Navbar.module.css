@@ -1,6 +1,8 @@
 .nav {
    /* background: radial-gradient(50% 50% at 50% 50%, rgba(11, 11, 11, 0.00) 0%, #0B0B0B 82.2%);*/
    background: #0B0B0B;
+   display: flex;
+   align-items: baseline;
 }
 .logo {
     font-family: 'Lora' sans-serif;
