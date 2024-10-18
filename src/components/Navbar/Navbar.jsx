@@ -9,12 +9,12 @@ const Navbar = () => {
         <div className={css.logo}>Votre miel</div>
         <ul className={css.list}>
           <li><a href="#about-us" className={css.list_item}>{t('navbar.about')}</a></li>
-          <li><a href="#products">{t('navbar.products')}</a></li>
-          <li><a href="#shop">{t('navbar.shop')}</a></li>
-          <li><a href="#gallery">{t('navbar.gallery')}</a></li>
-          <li><a href="#beauty">{t('navbar.beauty')}</a></li>
-          <li><a href="#reviews">{t('navbar.reviews')}</a></li>
-          <li><a href="#meet-us">{t('navbar.meet_us')}</a></li>
+          <li><a href="#products" className={css.list_item}>{t('navbar.products')}</a></li>
+          <li><a href="#shop" className={css.list_item}>{t('navbar.shop')}</a></li>
+          <li><a href="#gallery" className={css.list_item}>{t('navbar.gallery')}</a></li>
+          <li><a href="#beauty" className={css.list_item}>{t('navbar.beauty')}</a></li>
+          <li><a href="#reviews" className={css.list_item}>{t('navbar.reviews')}</a></li>
+          <li><a href="#meet-us" className={css.list_item}s>{t('navbar.meet_us')}</a></li>
         </ul>
         <LanguageSwitcher />
       </nav>
