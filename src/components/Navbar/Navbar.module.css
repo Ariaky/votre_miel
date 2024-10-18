@@ -31,5 +31,11 @@
 }
 
 .list_item {
-    
+    color: #FFC24B;
+    font-family: Lora;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
 }
