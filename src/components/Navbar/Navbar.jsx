@@ -8,7 +8,7 @@ const Navbar = () => {
       <nav className={css.nav}>
         <div className={css.logo}>Votre miel</div>
         <ul className={css.list}>
-          <li className={css.list_item}><a href="#about-us">{t('navbar.about')}</a></li>
+          <li><a href="#about-us" className={css.list_item}>{t('navbar.about')}</a></li>
           <li><a href="#products">{t('navbar.products')}</a></li>
           <li><a href="#shop">{t('navbar.shop')}</a></li>
           <li><a href="#gallery">{t('navbar.gallery')}</a></li>
