@@ -28,6 +28,11 @@
     align-items: center;
     justify-content: space-between;
     gap: 30px;
+    padding: 0px 37px;
+   /* width: 530px;
+    height: 64px;
+    align-items: center;
+    flex-shrink: 0;*/
 }
 
 .list_item {
@@ -38,4 +43,5 @@
     font-weight: 400;
     line-height: normal;
     text-transform: capitalize;
+    padding: 10px 15px;
 }
