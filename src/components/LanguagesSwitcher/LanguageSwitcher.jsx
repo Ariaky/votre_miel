@@ -14,7 +14,7 @@ const LanguageSwitcher = () => {
       <button className={css.language} conClick={() => changeLanguage('en')}>English</button>
       <button onClick={() => changeLanguage('fr')}>Français</button>
       <button onClick={() => changeLanguage('ua')}>Українська</button>
-
+      <img src={LanguageSwitcher} alt="img" width="30" height="20" />
     </div>
   );
 };
