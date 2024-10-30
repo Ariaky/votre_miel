@@ -16,7 +16,10 @@ const Navbar = () => {
           <li><a href="#reviews" className={css.list_item}>{t('navbar.reviews')}</a></li>
           <li><a href="#meet-us" className={css.list_item}s>{t('navbar.meet_us')}</a></li>
         </ul>
-        <LanguageSwitcher />
+        <div>
+        <LanguageSwitcher />  
+        </div>
+        
       </nav>
     );
   };
