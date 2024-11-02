@@ -1,3 +1,7 @@
+.language_switcher_button {
+    position: relative;
+}
+
 .button_text {
     color: #FFF9C0;
     font-family: Lora;
@@ -7,3 +11,4 @@
     line-height: normal;
     text-transform: capitalize;
 }
+
