@@ -1,8 +1,10 @@
 .language_switcher_button {
     position: relative;
+
 }
 
 .button_text {
+    /*position: absolute;*/
     color: #FFF9C0;
     font-family: Lora;
     font-size: 18px;
