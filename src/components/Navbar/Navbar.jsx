@@ -16,9 +16,30 @@ const Navbar = () => {
           <li><a href="#reviews" className={css.list_item}>{t('navbar.reviews')}</a></li>
           <li><a href="#meet-us" className={css.list_item}s>{t('navbar.meet_us')}</a></li>
         </ul>
-        <div>
+        <button>
         <LanguageSwitcher />  
-        </div>
+        </button>
+        <button
+            class="header-menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+            type="button"
+          >
+            <svg
+              class="header-menu-icon header-menu-icon-mobile"
+              width="28"
+              height="28"
+            >
+              <use href="/img/sprite.svg#icon-menu-28"></use>
+            </svg>
+            <svg
+              class="header-menu-icon header-menu-icon-tablet"
+              width="32"
+              height="32"
+            >
+              <use href="/img/sprite.svg#icon-menu-32"></use>
+            </svg>
+        </button>
         
       </nav>
     );
