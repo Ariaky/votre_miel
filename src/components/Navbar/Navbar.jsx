@@ -20,20 +20,20 @@ const Navbar = () => {
         <LanguageSwitcher />  
         </button>
         <button
-            class="header-menu-toggle js-open-menu"
+            className="header-menu-toggle js-open-menu"
             aria-expanded="false"
             aria-controls="mobile-menu"
             type="button"
           >
             <svg
-              class="header-menu-icon header-menu-icon-mobile"
+              className="header-menu-icon header-menu-icon-mobile"
               width="28"
               height="28"
             >
               <use href="/img/sprite.svg#icon-menu-28"></use>
             </svg>
             <svg
-              class="header-menu-icon header-menu-icon-tablet"
+              className="header-menu-icon header-menu-icon-tablet"
               width="32"
               height="32"
             >
