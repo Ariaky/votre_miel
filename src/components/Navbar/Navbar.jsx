@@ -30,14 +30,14 @@ const Navbar = () => {
               width="28"
               height="28"
             >
-              <use href="/img/sprite.svg#icon-menu-28"></use>
+              <use href="/image/sprite.svg#icon-menu-28"></use>
             </svg>
             <svg
               className="header-menu-icon header-menu-icon-tablet"
               width="32"
               height="32"
             >
-              <use href="/img/sprite.svg#icon-menu-32"></use>
+              <use href="/image/sprite.svg#icon-menu-32"></use>
             </svg>
         </button>
         
