@@ -19,6 +19,7 @@ const Navbar = () => {
         <button>
         <LanguageSwitcher />  
         </button>
+        
         <button
             className="header-menu-toggle js-open-menu"
             aria-expanded="false"
