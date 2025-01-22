@@ -19,8 +19,7 @@ const Navbar = () => {
         <button>
         <LanguageSwitcher />  
         </button>
-        
-        
+        < MobileMenu />
         
       </nav>
     );
