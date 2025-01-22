@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "../LanguagesSwitcher/LanguageSwitcher";
+import MobileMenu from "components/MobileMenu/MobileMenu";
 import css from "./Navbar.module.css";
 
 const Navbar = () => {
