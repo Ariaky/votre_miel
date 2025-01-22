@@ -26,3 +26,5 @@ const MobileMenu = () => {
         </button>
     );
 };
+
+export default MobileMenu;
