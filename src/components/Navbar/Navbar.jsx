@@ -20,7 +20,7 @@ const Navbar = () => {
         <button>
         <LanguageSwitcher />  
         </button>
-        < MobileMenu />
+        <MobileMenu />
         
       </nav>
     );
