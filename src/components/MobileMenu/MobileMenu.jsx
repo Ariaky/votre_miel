@@ -14,7 +14,7 @@ const MobileMenu = () => {
               width="28"
               height="28"
             >
-              <use href="/image/sprite.svg#icon-menu-28"></use>
+              <use href="/src/images/sprite.svg#icon-menu-28"></use>
             </svg>
             <svg
               className="header-menu-icon header-menu-icon-tablet"
