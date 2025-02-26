@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import css from './MobileMenu.module.css';
 
 const MobileMenu = () => {
     const  { t } = useTranslation();
